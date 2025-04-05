@@ -20,7 +20,7 @@ def view_task():
 
 def delete_task():
     if len(tasks) == 0:
-        print("no tasks no delete.")
+        print("no tasks to delete.")
     else:
         print('Tasks:')
         for i,task in enumerate(tasks):
